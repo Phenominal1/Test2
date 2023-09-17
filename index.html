@@ -66,7 +66,7 @@
 
         <div class="flex flex-col w-[100%] lg:h-[250vh] md:h-[250vh] h-[300vh] bg-[url('/img/finalpic1.jpg')]  justify-around text-center bg-center bg-fixed bg-cover bg-repeat-y">
 
-          <div class="w-full h-[50vh] flex xs:flex-col gap-2 lg:gap-24 md:gap-6 xs:gap-8 justify-center items-center text-center animate">
+          <div class="w-full h-[50vh] flex xs:flex-col gap-2 lg:gap-24 md:gap-6 xs:gap-8 justify-center items-center text-center animate xs:animated">
           
             <div class="bg-white  lg:w-[33vw] h-[60vh] md:w-[45vw] h-[40vh] rounded-xl xs:w-[75vw] opacity-[90%] height-auto transition-all">
               <img src="/img/sec1.jpg" alt="sec1" class="rounded-full mt-4 w-[15vw] h-auto lg:h-[15vh] w-[8vw] md:h-[10vh] w-[7vh] xs:w-[10vw] h-[7vh] text-center mx-auto">
@@ -105,13 +105,13 @@
 
         <script>
             ScrollReveal({
-               reset: true,
-               distance:'60px',
-               duration:1000,
-               delay:400 
+              reset: true,
+              distance:'80px',
+              duration:400,
+              delay:100
               });
 
-              ScrollReveal().reveal('.animate', { delay: 100 });              
+              ScrollReveal().reveal('.animate');            
         </script>
 </body>
 </html>
